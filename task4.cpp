@@ -4,8 +4,7 @@
 using namespace std;
 
 vector <int>slo(vector <int>&x,vector <int>y){
-    int a=0;
-    a=x.size()+y.size();
+    
     vector <int> out;
 
     for (int i=0;i<x.size();i++){
@@ -24,15 +23,15 @@ int main(int argc, char *argv[])
     vector <int> a={1,2,3,8,7,6};
     vector <int> b={1,4,5,7,1,2};
     vector <int> c;
-    int q=0,w=0;
+   
     cout << "Первый вектор" << endl;
-    q=a.size();
-    for (int i=0;i<q;i++){
+  
+    for (int i=0;i<a.size();i++){
         cout <<a.at(i)<<" ";
     }
     cout<<endl<<"Второй вектор"<<endl;
-    q=b.size();
-    for (int i=0;i<q;i++){
+   
+    for (int i=0;i<b.size();i++){
         cout <<b.at(i)<<" ";
     }
     cout<<endl;
@@ -42,9 +41,7 @@ int main(int argc, char *argv[])
         cout <<c.at(i)<<" ";
     }
     cout<<endl;
-    if (a.empty()) cout<<"Первый вектор пустой"<<endl;
-/*    for (int i=0;i<q;i++){
-        cout <<a.at(i)<<" ";
-    }*/
+    
+
     return 0;
 }

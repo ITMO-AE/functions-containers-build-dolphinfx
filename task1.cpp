@@ -16,11 +16,11 @@ int Factorial(int x){
 
 int main(int argc, char *argv[])
 {
-   int c=0,a=0;
+   int chislo=0;
     cout << "Введите число" << endl;
-    cin>>c;
-    if(c<=10){
-    cout<<Factorial(c)<<endl;}
+    cin>>chislo;
+    if(chislo<=10){
+    cout<<Factorial(chislo)<<endl;}
     else cout<<"Ничего не получится"<<endl;
     return 0;
 }

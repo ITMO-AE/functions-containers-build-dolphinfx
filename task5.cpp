@@ -6,8 +6,7 @@
 using namespace std;
 
 void Reverse(vector <int>&v){
-    int z=0,b=v.size();
-
+   
     reverse(v.begin(),v.end());
 
 }
